@@ -11,6 +11,33 @@ Aplikasi pencatatan keuangan pribadi berbasis Next.js dan Firebase.
 - **Recent Transactions**: Tampilkan 5 transaksi terakhir
 - **Grafik & Ringkasan**: (opsional, jika diaktifkan)
 
+## Fitur Lengkap
+
+- **Autentikasi Aman**: Daftar, login, dan logout dengan email & password.
+- **Tambah Transaksi**: Input pemasukan/pengeluaran dengan kategori, deskripsi, dan tanggal.
+- **Statistik Real-time**: Lihat total pemasukan, pengeluaran, dan saldo secara otomatis.
+- **Daftar Transaksi Bulanan**: Navigasi antar bulan, lihat detail transaksi dalam bentuk tabel.
+- **Recent Transactions**: Tampilkan 5 transaksi terakhir.
+- **Pencarian & Filter**: (opsional, jika diimplementasikan)
+- **Grafik Visualisasi**: (opsional, jika diimplementasikan)
+- **Responsive Design**: Tampilan optimal di desktop & mobile.
+
+## Screenshot
+
+### Dashboard
+
+![Dashboard Screenshot](public/screenshot-dashboard.png)
+
+### Form Tambah Transaksi
+
+![Add Transaction Form](public/screenshot-add-transaction.png)
+
+> **Catatan:** Ganti nama file screenshot sesuai file yang kamu upload ke folder `public/`.
+
+## Demo Online
+
+Coba aplikasi versi demo di: [https://finance-tracker-demo.vercel.app](https://finance-tracker-demo.vercel.app)
+
 ## Setup & Instalasi
 
 ### 1. Clone Repository
@@ -96,3 +123,17 @@ finance_tracker/
 ## Lisensi
 
 MIT
+
+## Kontribusi
+
+Pull request sangat diterima! Untuk perubahan besar, silakan buka issue terlebih dahulu untuk mendiskusikan apa yang ingin Anda ubah.
+
+1. Fork repo ini
+2. Buat branch fitur: `git checkout -b fitur-baru`
+3. Commit perubahan: `git commit -am 'Tambah fitur baru'`
+4. Push ke branch: `git push origin fitur-baru`
+5. Buka Pull Request
+
+## Kontak & Dukungan
+
+Jika ada pertanyaan, bug, atau saran fitur, silakan buka [issue](https://github.com/username/finance_tracker/issues) atau hubungi saya di [email@example.com].
